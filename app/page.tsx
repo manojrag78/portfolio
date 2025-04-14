@@ -10,6 +10,8 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import AboutMe from "@/components/AboutMe";
+import WorkExperience from "@/components/WorkExperience";
 
 const Home = () => {
   return (
@@ -17,10 +19,12 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <AboutMe />
         <Grid />
         <RecentProjects />
         <Clients />
         <Experience />
+        <WorkExperience />
         <Approach />
         <Footer />
       </div>
